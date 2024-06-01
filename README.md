@@ -64,6 +64,8 @@ class Program
             );
             context.SaveChanges();
 
+            var ageCondition = new Spec<User>(x=> x.Age == 30);
+
            var nameCondition = new Spec<User>(x => x.Name.Contains("John"));
 
            var fullCondition = ageCondition & nameCondition;
