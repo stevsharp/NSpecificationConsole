@@ -1,6 +1,8 @@
 # NSpecificationConsole
 
-A console application demonstrating the use of the NSpecifications library with Entity Framework Core's in-memory database and NSpec for testing. 
+A console application demonstrating the use of the NSpecifications library with Entity Framework Core's in-memory database and NSpecifications library. 
+
+https://github.com/jnicolau/NSpecifications
 
 This project showcases how to implement and test the Specification pattern in a clean, maintainable, and testable way.
 
